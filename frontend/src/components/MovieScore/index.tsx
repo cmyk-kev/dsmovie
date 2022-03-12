@@ -2,16 +2,12 @@ import MovieStars from 'components/MovieStars';
 import './style.css';
 
 
-
 type Props ={
   score: number,
   count:number
 }
 
-
 function MovieScore({score, count}: Props) {
-
-
 
   return (
     <div className="dsmovie-score-container">
