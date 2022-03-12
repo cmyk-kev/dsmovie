@@ -3,13 +3,12 @@ import {ReactComponent as StarHalf} from 'assets/img/star-half.svg';
 import {ReactComponent as StarEmpty} from 'assets/img/star-empty.svg';
 import './style.css';
 
-
 type Props ={
   score : number;
 }
 
 type StarProps ={
-  fill:number;
+  fill: number;
 }
 
 function getFills(score: number) {
